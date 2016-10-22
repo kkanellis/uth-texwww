@@ -22,7 +22,7 @@
 	    <url-pattern>/SelectBeer.do</url-pattern>
 
 	    <servlet-name>BeerLogin</servlet-name>
-            <url-pattern>/<url-pattern>
+            <url-pattern></url-pattern>
 	</servlet-mapping>
 
 
