@@ -10,25 +10,29 @@
 	    <servlet-class>
 		com.example.web.BeerSelect
 	    </servlet-class>
-
-	    <servlet-name>BeerLogin</servlet-name>
+	</servlet>
+	
+	<servlet>
+	    <servlet-name>Beer Login</servlet-name>
 	    <servlet-class>
 	        com.example.web.BeerLogin
 	    </servlet-class>
 	</servlet>
+
 	  
 	<servlet-mapping>
 	    <servlet-name>Ch3 Beer</servlet-name>
 	    <url-pattern>/SelectBeer.do</url-pattern>
-
-	    <servlet-name>BeerLogin</servlet-name>
+	</servlet-mapping>
+	    
+	<servlet-mapping>
+	    <servlet-name>Beer Login</servlet-name>
             <url-pattern></url-pattern>
 	</servlet-mapping>
-
+	
 	<listener>
 	    <listener-class>
-	      com.example.BeerSessionCounter
+		com.example.BeerSessionCounter
 	    </listener-class>
 	</listener>
-
 </web-app>
