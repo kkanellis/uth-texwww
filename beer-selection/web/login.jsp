@@ -10,14 +10,14 @@ Please enter your credentials given to you by UTH </br></br>
     Username: </br>
     <input type="text" name="username"></br></br>
     Password: </br>
-    <input type="text" name="password">
+    <input type="password" name="password">
     </br>
     <input type="submit" value="Submit">
 </form>
 
 </br></br>
 
-Total sessions: <%= request.getAttribute("activeSessions") %>
+Active sessions: <%= request.getAttribute("activeSessions") %>
 
 </body>
 </html>
